@@ -1,9 +1,18 @@
 ---
-title: "My Website"
+title: "Collecting and Analyzing survey data"
 ---
 
-Hello, Website!
+<div class="row">
+<div class="col-sm-6">
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+In this course I try to show how to collect survey data, as well as how to analyse them. We try to consider two main aspects of the concept of **measure**: the first one is when you collect the **measure**, the second one is when you analyse it. The measure, in other words the way you want to differentiate your respondents, has to be properly constructed and has to be in accordance with the research question of interest. Not to mention that the research question is just only an expression of a problem, an issue.
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+</div>
+<div class="col-sm-6">
+
+```{r MCAIllu, out.width=350, echo=F,fig.cap="A New Model of Social Class? Findings from the BBC’s Great British Class Survey Experiment (M. Savage et al.)",fig.align='center'}
+knitr::include_graphics("images/MCAIllu.png")
+```
+
+</div>
+</div>

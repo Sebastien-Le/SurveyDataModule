@@ -1,9 +1,9 @@
-name: "my-website"
+name: "survey-website"
 navbar:
-  title: "My Website"
+  title: "Survey Data Course"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "syllabus"
+      href: syllabus.html
 output_dir: "."
