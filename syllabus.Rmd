@@ -2,6 +2,8 @@
 title: "How to collect and analyze data with a survey"
 ---
 
+## Introduction
+
 From a statistical point of view, the objectives of this course are to understand the relationship between variables of different types: when the two variables are quantitative, when a variable is qualitative and the other one is quantitative, when both variables are qualitative. Then, we go for multivariate exploratory analyses such as Principal Component Analysis (PCA), Correspondence Analysis (CA), and Multiple Correspondence Analysis (MCA).
 
 From an experimental point of view, the objectives of the course are to know how to express properly a problem (an issue), how to *translate* this problem in terms of research question: in other words, what would be the experiment that would give me insights, in order to provide solutions for solving my problem. Within this course, the experiment should lead to a survey, to the construction of a *multivariate* measure that should differentiate the respondents of the survey.
@@ -10,42 +12,65 @@ From a practical point of view, I want my students to know how to use a software
 
 In this course, examples are very **perception** oriented.
 
-#Three is the magic number?
+## Three is the magic number
 
 3 new powers: an introduction to textual analysis, the Q-methodology, the notion of reproducibility.
 
 3 measures of the relationship between variables: correlation coefficient, etha square, chi-square (and you should know how to visualize that).
 
-3 acronyms you should get tattooed on the forearm: PCA, CA, MCA (clustering is just the gift wrap).
+3 acronyms you should get tattooed on the fist: PCA, CA, MCA (clustering is just the gift wrap).
 
-```{r fistPCA, out.width=350, echo=F,fig.cap="A New Model of Social Class? Findings from the BBC’s Great British Class Survey Experiment (M. Savage et al.)",fig.align='center'}
+```{r fistPCA, out.width=350, echo=F,fig.cap="PCA for Principal Component Analysis",fig.align='center'}
 knitr::include_graphics("images/fistPCA.png")
 ```
 
 
-My job is to help you take some distance, by sharing my experience, not by providing pure knowledge.
-
-```{r CA, out.width=350, echo=F,fig.cap="A New Model of Social Class? Findings from the BBC’s Great British Class Survey Experiment (M. Savage et al.)",fig.align='center'}
+```{r CA, out.width=350, echo=F,fig.cap="CA for Correspondence Analysis",fig.align='center'}
 knitr::include_graphics("images/CA.png")
 ```
 
+# Syllabus
+##  Course 1 (10/03)
 
-# How would you define the overall quality of a product? (10/03)
-
-In this course, examples are very **perception** oriented. To understand the relationship between two quantitative variables, I make my students think about the notion of overall quality: I give them quality certification labels, and I ask them to rate the labels from 0 to 10 according to the following question: does a product with such a label fill your expectations in terms of overall quality?
-
-# What is Principal Component Analysis? (17/03)
-
-# How would you describe the man behind that beard? (22/03)
-
-An introduction to the analysis of textual data (open-ended question) with the Chi-square test
-
-# Music with correspondence analysis (23/03))
-
-# What kind of tea do you drink? (02/04)
+1. Introduction to the notion of measure
+1. Relationship between two quantitative variables
+1. Phrasing properly the research question : How would you define the overall quality of a product?
+1. Sociology is important
 
 
-# Lab (06-07-09/04)
+##  Course 2 (17/03)
 
-An introduction to the Q-methodology: how would you define the notion of healthy lifestyle?
+1. Distance between two individuals
+1. Distance between two variables
+1. An introduction to Principal Component Analysis?
+
+## Course 3 (22/03)
+
+1. The notion of stimuli and open-ended question
+1. Who's the man behind the beard?
+1. An introduction to the analysis of textual data (open-ended question) with the Chi-square test
+
+
+## Course 4 (23/03)
+
+1. The independence model with 2 qualitative variables
+1. Relationship between two quantitative variables
+1. An introduction to Correspondence Analysis
+1. Tell me what kind of music you are listening to and I will tell you who you are
+
+##  Course 5 (02/04)
+
+1. An introduction to survey data: what kind of tea do you drink?
+1. What can I expect from the analysis of survey data?
+1. An introduction to Multiple Correspondence Analysis
+
+
+## Lab (06-07-09/04)
+
+1. An introduction to the Q-methodology: how would you define the notion of healthy lifestyle?
+1. Representing a qualitative variable
+1. Presentation of my first R markdown file
+1. Manipulating qualitative data
+
+
 

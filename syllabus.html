@@ -11,7 +11,7 @@
 
 
 
-<title>How to collect and analyze with a survey</title>
+<title>How to collect and analyze data with a survey</title>
 
 <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -259,52 +259,89 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">How to collect and analyze with a survey</h1>
+<h1 class="title toc-ignore">How to collect and analyze data with a survey</h1>
 
 </div>
 
 
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
 <p>From a statistical point of view, the objectives of this course are to understand the relationship between variables of different types: when the two variables are quantitative, when a variable is qualitative and the other one is quantitative, when both variables are qualitative. Then, we go for multivariate exploratory analyses such as Principal Component Analysis (PCA), Correspondence Analysis (CA), and Multiple Correspondence Analysis (MCA).</p>
 <p>From an experimental point of view, the objectives of the course are to know how to express properly a problem (an issue), how to <em>translate</em> this problem in terms of research question: in other words, what would be the experiment that would give me insights, in order to provide solutions for solving my problem. Within this course, the experiment should lead to a survey, to the construction of a <em>multivariate</em> measure that should differentiate the respondents of the survey.</p>
 <p>From a practical point of view, I want my students to know how to use a software such as LimeSurvey, to know how to do reproducible research with Rstudio and Rmarkdown, to know how to analyse with R and the FactoMineR package.</p>
 <p>In this course, examples are very <strong>perception</strong> oriented.</p>
-<p>#Three is the magic number?</p>
+</div>
+<div id="three-is-the-magic-number" class="section level2">
+<h2>Three is the magic number</h2>
 <p>3 new powers: an introduction to textual analysis, the Q-methodology, the notion of reproducibility.</p>
 <p>3 measures of the relationship between variables: correlation coefficient, etha square, chi-square (and you should know how to visualize that).</p>
-<p>3 acronyms you should get tattooed on the forearm: PCA, CA, MCA (clustering is just the gift wrap).</p>
+<p>3 acronyms you should get tattooed on the fist: PCA, CA, MCA (clustering is just the gift wrap).</p>
 <div class="figure" style="text-align: center">
-<img src="images/fistPCA.png" alt="A New Model of Social Class? Findings from the BBC’s Great British Class Survey Experiment (M. Savage et al.)" width="350" />
+<img src="images/fistPCA.png" alt="PCA for Principal Component Analysis" width="350" />
 <p class="caption">
-A New Model of Social Class? Findings from the BBC’s Great British Class Survey Experiment (M. Savage et al.)
+PCA for Principal Component Analysis
 </p>
 </div>
-<p>My job is to help you take some distance, by sharing my experience, not by providing pure knowledge.</p>
 <div class="figure" style="text-align: center">
-<img src="images/CA.png" alt="A New Model of Social Class? Findings from the BBC’s Great British Class Survey Experiment (M. Savage et al.)" width="350" />
+<img src="images/CA.png" alt="CA for Correspondence Analysis" width="350" />
 <p class="caption">
-A New Model of Social Class? Findings from the BBC’s Great British Class Survey Experiment (M. Savage et al.)
+CA for Correspondence Analysis
 </p>
 </div>
-<div id="how-would-you-define-the-overall-quality-of-a-product-1003" class="section level1">
-<h1>How would you define the overall quality of a product? (10/03)</h1>
-<p>In this course, examples are very <strong>perception</strong> oriented. To understand the relationship between two quantitative variables, I make my students think about the notion of overall quality: I give them quality certification labels, and I ask them to rate the labels from 0 to 10 according to the following question: does a product with such a label fill your expectations in terms of overall quality?</p>
 </div>
-<div id="what-is-principal-component-analysis-1703" class="section level1">
-<h1>What is Principal Component Analysis? (17/03)</h1>
+<div id="syllabus" class="section level1">
+<h1>Syllabus</h1>
+<div id="course-1-1003" class="section level2">
+<h2>Course 1 (10/03)</h2>
+<ol style="list-style-type: decimal">
+<li>Introduction to the notion of measure</li>
+<li>Relationship between two quantitative variables</li>
+<li>Phrasing properly the research question : How would you define the overall quality of a product?</li>
+<li>Sociology is important</li>
+</ol>
 </div>
-<div id="how-would-you-describe-the-man-behind-that-beard-2203" class="section level1">
-<h1>How would you describe the man behind that beard? (22/03)</h1>
-<p>An introduction to the analysis of textual data (open-ended question) with the Chi-square test</p>
+<div id="course-2-1703" class="section level2">
+<h2>Course 2 (17/03)</h2>
+<ol style="list-style-type: decimal">
+<li>Distance between two individuals</li>
+<li>Distance between two variables</li>
+<li>An introduction to Principal Component Analysis?</li>
+</ol>
 </div>
-<div id="music-with-correspondence-analysis-2303" class="section level1">
-<h1>Music with correspondence analysis (23/03))</h1>
+<div id="course-3-2203" class="section level2">
+<h2>Course 3 (22/03)</h2>
+<ol style="list-style-type: decimal">
+<li>The notion of stimuli and open-ended question</li>
+<li>Who’s the man behind the beard?</li>
+<li>An introduction to the analysis of textual data (open-ended question) with the Chi-square test</li>
+</ol>
 </div>
-<div id="what-kind-of-tea-do-you-drink-0204" class="section level1">
-<h1>What kind of tea do you drink? (02/04)</h1>
+<div id="course-4-2303" class="section level2">
+<h2>Course 4 (23/03)</h2>
+<ol style="list-style-type: decimal">
+<li>The independence model with 2 qualitative variables</li>
+<li>Relationship between two quantitative variables</li>
+<li>An introduction to Correspondence Analysis</li>
+<li>Tell me what kind of music you are listening to and I will tell you who you are</li>
+</ol>
 </div>
-<div id="lab-06-07-0904" class="section level1">
-<h1>Lab (06-07-09/04)</h1>
-<p>An introduction to the Q-methodology: how would you define the notion of healthy lifestyle?</p>
+<div id="course-5-0204" class="section level2">
+<h2>Course 5 (02/04)</h2>
+<ol style="list-style-type: decimal">
+<li>An introduction to survey data: what kind of tea do you drink?</li>
+<li>What can I expect from the analysis of survey data?</li>
+<li>An introduction to Multiple Correspondence Analysis</li>
+</ol>
+</div>
+<div id="lab-06-07-0904" class="section level2">
+<h2>Lab (06-07-09/04)</h2>
+<ol style="list-style-type: decimal">
+<li>An introduction to the Q-methodology: how would you define the notion of healthy lifestyle?</li>
+<li>Representing a qualitative variable</li>
+<li>Presentation of my first R markdown file</li>
+<li>Manipulating qualitative data</li>
+</ol>
+</div>
 </div>
 
 
