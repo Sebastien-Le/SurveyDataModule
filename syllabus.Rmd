@@ -6,10 +6,28 @@ From a statistical point of view, the objectives of this course are to understan
 
 From an experimental point of view, the objectives of the course are to know how to express properly a problem (an issue), how to *translate* this problem in terms of research question: in other words, what would be the experiment that would give me insights, in order to provide solutions for solving my problem. Within this course, the experiment should lead to a survey, to the construction of a *multivariate* measure that should differentiate the respondents of the survey.
 
-From a practical point of view, I want my students to know how to use a software such as LimeSurvey, to know how to do reproducible research with Rstudio and Rmarkdown, to know how to analyse with the FactoMineR package.
+From a practical point of view, I want my students to know how to use a software such as LimeSurvey, to know how to do reproducible research with Rstudio and Rmarkdown, to know how to analyse with R and the FactoMineR package.
 
 In this course, examples are very **perception** oriented.
 
+#Three is the magic number?
+
+3 new powers: an introduction to textual analysis, the Q-methodology, the notion of reproducibility.
+
+3 measures of the relationship between variables: correlation coefficient, etha square, chi-square (and you should know how to visualize that).
+
+3 acronyms you should get tattooed on the forearm: PCA, CA, MCA (clustering is just the gift wrap).
+
+```{r fistPCA, out.width=350, echo=F,fig.cap="A New Model of Social Class? Findings from the BBC’s Great British Class Survey Experiment (M. Savage et al.)",fig.align='center'}
+knitr::include_graphics("images/fistPCA.png")
+```
+
+
+My job is to help you take some distance, by sharing my experience, not by providing pure knowledge.
+
+```{r CA, out.width=350, echo=F,fig.cap="A New Model of Social Class? Findings from the BBC’s Great British Class Survey Experiment (M. Savage et al.)",fig.align='center'}
+knitr::include_graphics("images/CA.png")
+```
 
 
 # How would you define the overall quality of a product? (10/03)
