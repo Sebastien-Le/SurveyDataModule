@@ -30,13 +30,14 @@ knitr::include_graphics("images/CA.png")
 ```
 
 # Syllabus
+
 ##  Course 1 (10/03)
 
 1. Introduction to the notion of measure
 1. Relationship between two quantitative variables
 1. Phrasing properly the research question : How would you define the overall quality of a product?
 1. Sociology is important
-
+1. [Your data](data/quality_data_L3_2021.txt)
 
 ##  Course 2 (17/03)
 
@@ -50,7 +51,6 @@ knitr::include_graphics("images/CA.png")
 1. Who's the man behind the beard?
 1. An introduction to the analysis of textual data (open-ended question) with the Chi-square test
 
-
 ## Course 4 (23/03)
 
 1. The independence model with 2 qualitative variables
@@ -63,7 +63,6 @@ knitr::include_graphics("images/CA.png")
 1. An introduction to survey data: what kind of tea do you drink?
 1. What can I expect from the analysis of survey data?
 1. An introduction to Multiple Correspondence Analysis
-
 
 ## Lab (06-07-09/04)
 
