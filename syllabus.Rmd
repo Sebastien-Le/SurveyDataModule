@@ -1,5 +1,5 @@
 ---
-title: "How to collect and analyze with a survey"
+title: "How to collect and analyze data with a survey"
 ---
 
 From a statistical point of view, the objectives of this course are to understand the relationship between variables of different types: when the two variables are quantitative, when a variable is qualitative and the other one is quantitative, when both variables are qualitative. Then, we go for multivariate exploratory analyses such as Principal Component Analysis (PCA), Correspondence Analysis (CA), and Multiple Correspondence Analysis (MCA).
