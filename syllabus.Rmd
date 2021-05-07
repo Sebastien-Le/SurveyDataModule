@@ -48,7 +48,7 @@ knitr::include_graphics("images/CA.png")
 ## Course 3 (22/03)
 
 1. The notion of stimuli and open-ended question
-1. Who's the man behind the beard?
+1. [Who's the man behind the beard?](https://charleslandston.com/quelle-barbe-pour-quel-visage/)
 1. An introduction to the analysis of textual data (open-ended question) with the Chi-square test
 
 ## Course 4 (23/03)
